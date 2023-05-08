@@ -18,3 +18,5 @@ This project intends to apply three RL algorithms for discrete action spaces on 
 | Cumulative rewards 	| 18388.01 	| 54037.98 	| 423.26 	| 371.72 	|
 | Mean rewards 	| 21.17 	| 9.55 	| 4.86 	| 4.37 	|
 | Std rewards 	| 0.62 	| 5.07 	| 4.82 	| 4.89 	|
+
+In conclusion, under the highway_env, PPO performed extremely well, demonstrating higher mean rewards and greater stability than DQN. Due to its robustness, ease of tuning, and consistent performance, PPO is a suitable choice for traffic scenarios with discrete action spaces. However, DQN achieved higher cumulative rewards but required more hyperparameter tuning and exhibited potential instability and slow convergence. In addition, under the more complex intersection-v0 environment, both the DQN and A2C models struggled to achieve good performance. The mean rewards were low in both models, and the cumulative rewards were disappointing.
