@@ -13,7 +13,8 @@ This project intends to apply three RL algorithms for discrete action spaces on 
  
  And finally we obtained the following summary table -- 
  
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+|  	| PPO 	| DQN 	| DQN  	| Actor-Critic (A2C) 	|
+|---	|---	|---	|---	|---	|
+| Cumulative rewards 	| 18388.01 	| 54037.98 	| 423.26 	| 371.72 	|
+| Mean rewards 	| 21.17 	| 9.55 	| 4.86 	| 4.37 	|
+| Std rewards 	| 0.62 	| 5.07 	| 4.82 	| 4.89 	|
